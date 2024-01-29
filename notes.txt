@@ -1,0 +1,32 @@
+Timing Information:
+-------------------
+As the size increases the push function executes faster.
+
+The unshift function is slower because it is performing 2 functions 
+where as the push is performing only
+one operation of adding a value to the previous value.
+
+Extra Large Array
+-----------------
+Time to run code with push():4.46 ms
+Time to run code with unshift():873.031 ms
+
+Large Array
+-----------
+Time to run code with push():791.414 ns
+Time to run code with unshift():5.83 ms
+
+Medium Array
+------------
+Time to run code with push():161.531 ns
+Time to run code with unshift():164.627 ns
+
+Small Array
+-----------
+Time to run code with push():109.58 ns
+Time to run code with unshift():53.242 ns
+
+Tiny Array
+----------
+Time to run code with push():94.716 ns
+Time to run code with unshift():75.633 ns
